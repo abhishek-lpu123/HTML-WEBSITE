@@ -1,0 +1,114 @@
+.topnav {
+  background-color: white;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: Black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: fantasy;
+}
+.topnav a:hover {
+  background-color: Green;
+  color: White;
+}
+
+.topnav a.active {
+  background-color: Green;
+  color: white;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+ 
+  background: #333;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+
+#video-background {
+  position: fixed;
+  right: 0; 
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  width: auto; 
+  height: auto;
+  z-index: -100;
+}
+
+input[type=text], select, textarea {
+  width: 50%;
+  padding: 12px; 
+  border: 5px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical 
+}
+
+
+
+input[type=submit] {
+  background-color: Green;
+  color: white;
+  padding: 12px 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 25%;
+font-family: fantasy;
+font-size: 15px;
+}
+
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+.container 
+  {
+font-family: fantasy;
+border-radius: 10px;
+background-color: B9E3CC;
+padding: 20px;
+width: 38%;
+position: sticky;
+left:20px;
+opacity: 0.95;
+}
+
+<style>
+{margin:25px;}
+
+
+div.polaroid2 {
+  width: 100%;
+  margin-bottom: 25px;
+position:absolute; 
+top:420px;
+ right:25px;
+ width:500px;
+ height:150px;
+opacity: 0.95;
+}
+
+div.polaroid {
+  width: 100%;
+  margin-bottom: 25px;
+position:absolute; 
+top:180px;
+ right:25px;
+ width:500px;
+ height:200px;
+opacity: 0.95;
+}
+}
